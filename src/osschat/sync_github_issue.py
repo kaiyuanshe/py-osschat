@@ -35,6 +35,7 @@ class SyncGithubIssuePlugin(WechatyPlugin):
 
             # 1. set main body
             issue_data = {
+                "title": issue.title,
                 "body": issue.body,
                 "labels": [],
                 "creator": issue.user.login,
