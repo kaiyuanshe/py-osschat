@@ -1,3 +1,8 @@
 wechaty
 PyGithub
 notify-py
+faiss-cpu
+datasets
+typed-argument-parser
+fastdeploy-python
+python-dotenv

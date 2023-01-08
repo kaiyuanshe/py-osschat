@@ -4,4 +4,9 @@
 
 all:
 	python b.py
+
+install:
+	sudo apt-get install ffmpeg libsm6 libxext6  -y
+	conda install -c pytorch faiss-cpu
+	pip install -r requirements.txt
     
