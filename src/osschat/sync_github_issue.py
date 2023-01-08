@@ -63,4 +63,6 @@ class SyncGithubIssuePlugin(WechatyPlugin):
             time.sleep(self.sleep_seconds)
 
     async def init_plugin(self, wechaty: Wechaty) -> None:
-        await self.sync_issues()
+        asyncio.create_task(
+            self.sync_issues()
+        )

@@ -13,6 +13,7 @@ dataset: DatasetDict = load_dataset("json", data_files='./data/faq.json')
 config: TextEncoderConfig = TextEncoderConfig().parse_args(known_only=True)
 encoder = TextEncoder(config)
 
+
 def convert_features(examples):
     embedding = encoder.encode(examples['title'])
     return {
