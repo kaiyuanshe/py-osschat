@@ -1,0 +1,422 @@
+[
+    {
+        "number": "4005",
+        "title": "[Question]: paddle serving RPC部署UIE模型，服务端已经成功，客户端请求服务端，提示输入的数据维度不正确，有了解的大神吗",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/4005"
+    },
+    {
+        "number": "4001",
+        "title": "unimo-text",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/4001"
+    },
+    {
+        "number": "3995",
+        "title": "please check your input or input array data type. (at /paddle/paddle/fluid/pybind/tensor_py.h:549)",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3995"
+    },
+    {
+        "number": "3994",
+        "title": "[Feature request] 从文档中分析要求并给定类型",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3994"
+    },
+    {
+        "number": "3990",
+        "title": "[Question]: 请问BatchEncoding这个类的char_to_token方法是还用不了吗？",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3990"
+    },
+    {
+        "number": "3989",
+        "title": "[Bug]: UIE  PaddleNLP SimpleServing  部署不支持罗马数字",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3989"
+    },
+    {
+        "number": "3987",
+        "title": "[Question]: Error: Can not import paddle core while this file exists: /opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/libpaddle.so",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3987"
+    },
+    {
+        "number": "3985",
+        "title": "[Bug]: get_offset_mapping can not handle [unk] token",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3985"
+    },
+    {
+        "number": "3981",
+        "title": "link gif",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3981"
+    },
+    {
+        "number": "3980",
+        "title": "Can we add the feature of image to text?",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3980"
+    },
+    {
+        "number": "3976",
+        "title": "[Question]: 【快速上手ERNIE 3.0】对话意图识别实战代码",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3976"
+    },
+    {
+        "number": "3966",
+        "title": "[Bug]: TypeError: float() argument must be a string or a number, not 'tuple'",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3966"
+    },
+    {
+        "number": "3959",
+        "title": "[Bug]: tokenizer：substring not found",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3959"
+    },
+    {
+        "number": "3958",
+        "title": "[Bug]: ModuleNotFoundError: No module named 'paddle.distributed.sharding'",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3958"
+    },
+    {
+        "number": "3953",
+        "title": "[Question] 使用tokenizer报错",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3953"
+    },
+    {
+        "number": "3949",
+        "title": "[Question]: ernie-health spo 抽取任务，不会返回实体类型吗？",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3949"
+    },
+    {
+        "number": "3942",
+        "title": "uie-m-base目前是否支援訓練",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3942"
+    },
+    {
+        "number": "3941",
+        "title": "[Question]: Ernie-layout support for multi-answers VQA finetuning",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3941"
+    },
+    {
+        "number": "3940",
+        "title": "[Question]: pddlenlp中是否有针对中文数据的t5模型？",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3940"
+    },
+    {
+        "number": "3939",
+        "title": "ernie-gen使用FasterGeneration",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3939"
+    },
+    {
+        "number": "3934",
+        "title": "[Question]: UIE：CCKS基线代码：解码细节请教",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3934"
+    },
+    {
+        "number": "3932",
+        "title": "[Question]: 评估指标的优化等三个问题",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3932"
+    },
+    {
+        "number": "3931",
+        "title": "[Question]: ernie-3.0量化模型推理报错: segmentataion fault",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3931"
+    },
+    {
+        "number": "3928",
+        "title": "[Feature request] To add AutoConfig",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3928"
+    },
+    {
+        "number": "3926",
+        "title": "[Bug]:下载预训练模型时报错404",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3926"
+    },
+    {
+        "number": "3918",
+        "title": "[Question]: text_similarity",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3918"
+    },
+    {
+        "number": "3915",
+        "title": "[Question]: InvalidArgumentError: input and filter data type should be consistent, but received input data type is int64_t and filter type is float       [Hint: Expected input_data_type == filter_data_type, but received input_data_type:3 != filter_data_type:5.] (at /paddle/paddle/fluid/operators/conv_op.cc:209)       [operator < conv2d > error]",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3915"
+    },
+    {
+        "number": "3913",
+        "title": "Pipelines能否提供通用的对用户调查问卷的自动QA对提取",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3913"
+    },
+    {
+        "number": "3910",
+        "title": "[Question]: 使用uie官方实例代码时报错，无结果返回",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3910"
+    },
+    {
+        "number": "3909",
+        "title": "[Question]: ",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3909"
+    },
+    {
+        "number": "3908",
+        "title": "[Bug]: GPT导出模型后，推理报错",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3908"
+    },
+    {
+        "number": "3907",
+        "title": "[Bug]: UIE文档有误",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3907"
+    },
+    {
+        "number": "3903",
+        "title": "序列生成任务？",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3903"
+    },
+    {
+        "number": "3901",
+        "title": "[Bug]: paddlenlp中关于ErnieLayoutTokenizer的返回offset_mapping的错误",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3901"
+    },
+    {
+        "number": "3900",
+        "title": "[Question]: DocPrompt",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3900"
+    },
+    {
+        "number": "3895",
+        "title": "[Question]: ernie-health spo抽取任务中，如何使用自定义finetune数据？",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3895"
+    },
+    {
+        "number": "3893",
+        "title": "[Question]: 包含特殊字符时，在tokenize阶段就miss掉了，可不可以扩展一下",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3893"
+    },
+    {
+        "number": "3883",
+        "title": "[Question]: Pipeline中语义检索服务启动报错",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3883"
+    },
+    {
+        "number": "3879",
+        "title": "[Docs]: 官网提供的预训练模型权重过期无法下载",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3879"
+    },
+    {
+        "number": "3872",
+        "title": "模型蒸馏时， 运行 data_distill.py出错",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3872"
+    },
+    {
+        "number": "3868",
+        "title": "UIE模型蒸馏数据量问题",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3868"
+    },
+    {
+        "number": "3867",
+        "title": "[Bug]: 预训练模型内存溢出",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3867"
+    },
+    {
+        "number": "3866",
+        "title": "[Bug]: fast_tokenizer遇到GLIBCXX_3.4.20 not found 问题",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3866"
+    },
+    {
+        "number": "3863",
+        "title": "t5-v1-1-xl、t5-v1-1-xxl、mt5 系列模型集成",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3863"
+    },
+    {
+        "number": "3862",
+        "title": "怎么使用ERNIE-GEN模型进行对话任务",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3862"
+    },
+    {
+        "number": "3855",
+        "title": "[Bug]: 静态图和动态图的tokenizer对特殊字符的tokenize的结果不一样",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3855"
+    },
+    {
+        "number": "3854",
+        "title": "[Question]: backbone模型从ernie2.0换为albert后，训练打印出所有层梯度为0，参数不更新，损失不下降",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3854"
+    },
+    {
+        "number": "3852",
+        "title": "[Question]: how to change the keyword 'sks' as it would pollute data",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3852"
+    },
+    {
+        "number": "3847",
+        "title": "[Feature request] Tokenizer支持多个句子编码成input_ids和token_type_ids",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3847"
+    },
+    {
+        "number": "3844",
+        "title": "[Bug]: AttributeError: 'BertConfig' object has no attribute 'get'",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3844"
+    },
+    {
+        "number": "3842",
+        "title": "[Question]:  Extracting Table from multiple pages in PDFs",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3842"
+    },
+    {
+        "number": "3835",
+        "title": "[Question]: 蒸馏后的模型使用问题",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3835"
+    },
+    {
+        "number": "3833",
+        "title": "ERROR/ForkPoolWorker-1] Filename: /root/doccano/media/5ceXQ8YpeWUCLzGKQRCa76/AaQ8eEyKTRsjB523VbsNJr/xxtq2.txt, Line: 2, Data: {}, Error: 'label'[Question]: ",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3833"
+    },
+    {
+        "number": "3832",
+        "title": "paddle serving部署服务启动报错TypeError: can't pickle _thread.lock objects[Question]: ",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3832"
+    },
+    {
+        "number": "3830",
+        "title": "[Question]: faster tokenizer的使用方法",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3830"
+    },
+    {
+        "number": "3827",
+        "title": "AutoPrompt 生成应用",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3827"
+    },
+    {
+        "number": "3825",
+        "title": "[Question]: 'CompressionArguments' object has no attribute 'do_compress'",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3825"
+    },
+    {
+        "number": "3823",
+        "title": "[Bug]: semantic-search例子使用streamlit上传文件无法自动建立索引",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3823"
+    },
+    {
+        "number": "3819",
+        "title": "neural_search ranking里的model_name_or_path 和params_path可以只设置一个吗？",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3819"
+    },
+    {
+        "number": "3818",
+        "title": "neural_search ranking里cross encoder提供的预训练模型似乎有误 ",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3818"
+    },
+    {
+        "number": "3815",
+        "title": "[Question]: 关于ppdiffuser使用到ema技术的问题",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3815"
+    },
+    {
+        "number": "3814",
+        "title": "[Question]: 我是使用doccano标注数据的时候，按照文档中的指示步骤，生成的json数据中entities项都是空的，例如：{\"id\":90,\"text\":\"厦门到深圳500块钱4月24号交通费\",\"entities\":[],\"relations\":[]}",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3814"
+    },
+    {
+        "number": "3807",
+        "title": "[Question]: PaddleNLP/examples/machine_reading_comprehension/DuReader-robust这个模型如何预测？",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3807"
+    },
+    {
+        "number": "3802",
+        "title": "[Question]: UIE模型偶尔出现AttributeError: 'paddle.fluid.core_avx.Tensor' object has no attribute 'numpy'",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3802"
+    },
+    {
+        "number": "3799",
+        "title": "docprompt发布过去已经20多天，希望paddlenlp人员能够抽空把docprompt的动态图模型及参数发布出来。",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3799"
+    },
+    {
+        "number": "3798",
+        "title": "[Question]: UIE预测报错",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3798"
+    },
+    {
+        "number": "3797",
+        "title": "使用Taskflow时的参数问题[Question]: ",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3797"
+    },
+    {
+        "number": "3795",
+        "title": "[Question]: ernie-doc run_mrc.py训练阅读理解模型异常退出",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3795"
+    },
+    {
+        "number": "3791",
+        "title": "[Question]: 使用 document_intelligence 估计出的答案在图片中没有那个字符串",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3791"
+    },
+    {
+        "number": "3784",
+        "title": "[Question]: 关于SER任务，value是分开的两行或多行时该怎么处理",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3784"
+    },
+    {
+        "number": "3783",
+        "title": "[Question]: autoprompt官方给的源码跑不通",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3783"
+    },
+    {
+        "number": "3782",
+        "title": "[Question]: ERNIE-3.0模型压缩",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3782"
+    },
+    {
+        "number": "3779",
+        "title": "[Question]: 文本分类prompt，实际场景的评估值",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3779"
+    },
+    {
+        "number": "3776",
+        "title": "在使用uie slim数据蒸馏时，遇到的一些问题[Question]: ",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3776"
+    },
+    {
+        "number": "3773",
+        "title": "[Question]: ernie-layout 推理部署",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3773"
+    },
+    {
+        "number": "3767",
+        "title": "在进行serc++推理时，五个输入都定义成了模型输入类型要求的int64，然后传入ser模型输入，在推理时报错",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3767"
+    },
+    {
+        "number": "3766",
+        "title": "[Question]: 基于ERNIE3.0微调得到的UIE，需要的数据量大概有多少？",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3766"
+    },
+    {
+        "number": "3761",
+        "title": "[Bug]: cpu下运行paddlenlp中examples/few_shot/pet项目出错",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3761"
+    },
+    {
+        "number": "3757",
+        "title": "[Question]: 超过vocab部分index未能成功转为unk_token或none",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3757"
+    },
+    {
+        "number": "3756",
+        "title": "What is the recommended OCR model in paddle for english handwritting recognition",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3756"
+    },
+    {
+        "number": "3754",
+        "title": "[Bug]: ppdiffusers bug",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3754"
+    },
+    {
+        "number": "3751",
+        "title": "请问一下paddlenlp有dockerfile吗",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3751"
+    },
+    {
+        "number": "3750",
+        "title": "Ernie-Layout 在Xfund数据集预处理Text的一维序列化算法",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3750"
+    },
+    {
+        "number": "3749",
+        "title": "[Question]: GPTTokenizer 未正常加载",
+        "url": "https://github.com/PaddlePaddle/PaddleNLP/issues/3749"
+    }
+]

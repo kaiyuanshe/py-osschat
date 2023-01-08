@@ -12,14 +12,14 @@ from src.osschat.tensor_encoder import TextEncoder, TextEncoderConfig
 
 tokenizer = AutoTokenizer.from_pretrained("simbert-base-chinese")
 
-dataset: DatasetDict = load_dataset("json", data_files='./data/faq.json')
+dataset: DatasetDict = load_dataset("json", data_files='./data/corpus.json')
 
 config: TextEncoderConfig = TextEncoderConfig().parse_args(known_only=True)
 encoder = TextEncoder(config)
 
 
 def convert_features(examples):
-    embedding = encoder.encode(examples['title'])
+    embedding = encoder.encode(examples['question'])
     return {
         "embedding": embedding
     }
@@ -33,54 +33,41 @@ class IssueAnswer(WechatyPlugin):
 
     def __init__(self,):
         super().__init__(None)
-        self.threshold = 0.9
-
-    def is_question(self, text: str):
-        if "？" in text:
-            return True
-        if "为什么" in text:
-            return True
-        if "如何" in text:
-            return True
-        if "怎么" in text:
-            return True
-        return False
-        
+        self.threshold = 90
 
     async def on_message(self, msg: Message) -> None:
+        
         room = msg.room()
         if room and room.room_id not in self.setting["room_ids"]:
             return
 
         text = msg.text()
-        if not self.is_question(text):
-            return
 
         embedding = encoder.encode([text])
         result: NearestExamplesResults = feature_dataset.get_nearest_examples(
             "embedding",
             embedding,
-            k=3
+            k=1
         )
 
         head_text = random.choice(
             [
-                '我发现你的问题已经有小伙伴问过了，可以参考：',
-                '我这里有几个类似的问题，你可以参考：',
-                '针对于你的问题，我这里有几个建议：',
-                "兄嘚，我在 github issue 找到了几个类似的问题："
+                "你的这个问题，我知道：",
+                "兄嘚，我在我的知识库中找到了类似的问题："
             ]
         )
         msg_result = [
             head_text,
-            ">>>>>>>>>>>>>>>>>>>>>>>>>>>"
         ]
 
         for index, score in enumerate(result.scores):
             if score > self.threshold:
+                print(result.examples)
                 msg_result.append(
-                    f'{index}. {result.examples["title"][index]} \n   {result.examples["url"][index]}'
+                    f'{result.examples["answer"][index]}'
                 )
+        if len(msg_result) == 1:
+            return
         
         talker = msg.talker()
         await msg.say("\n".join(msg_result), mention_ids=[talker.contact_id])
